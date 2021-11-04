@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border-radius: 15px;
+    width: 650px;
+    height: 350px;
+    margin: 50px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #e2860b, #faca4c);
+}
+
+.left h1{
+    font-weight: bold;
+    color: white;
+    margin: 5px 0 24px 0;
+}
+
+.rigth{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+button{
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+    width: 80%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    border-color: transparent;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+    width: 20%;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    width: 80%;
+    padding: 0 0 0 15px;
+}
+
+.rigth{
+    float: right;
+    width: 50%;
+    height: 100%;
+    border: 1px solid paleturquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rigth h4{
+    margin: -5px 0 35px -78px;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #fdc96a;
+    width: 250px;
+    height: 40px;
+    margin: 0 0 20px 0;
+}
+
+.input-f{
+    height: 100%;
+    width: 80%;
+    text-align: left;
+    border: none;
+    margin: 0 0 0 15px;
+}
+
+.loguito{
+    color: #cccccc;
+    
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.input-s{
+    width: 250px;
+    height: 40px;
+    background-color: #84c333;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
