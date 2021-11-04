@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: gray;
+}
+
 .container{
-    border-radius: 15px;
+    overflow: hidden;
+    border-radius: 5px;
+    border-radius: 5px;
     width: 650px;
     height: 350px;
     margin: 50px;
@@ -29,12 +35,14 @@
 }
 
 .rigth{
+    background-color: #fff;
     float: right;
     width: 50%;
     height: 100%;
 }
 
 button{
+    overflow: hidden;
     margin: 0 0 15px 0;
     border-radius: 5px;
     width: 80%;
@@ -42,6 +50,7 @@ button{
     display: flex;
     align-items: center;
     border-color: transparent;
+    border: none;
 }
 
 .logo{
@@ -106,6 +115,7 @@ button{
 }
 
 .input-s{
+    border-radius: 5px;
     width: 250px;
     height: 40px;
     background-color: #84c333;
